@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СТО-ЧЕ - Надійне СТО в Черкасах</title>
+
+    <!--vendor css ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <!--Bootstrap ================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google Fonts ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Oswald:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- script ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
+
+
+    <nav class="navbar fixed-top navbar-expand-lg container-fluid p-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/main-logo-light.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <iconify-icon icon="system-uicons:menu-hamburger" class="hamburger-menu"></iconify-icon>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Меню</h5>
+                    <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul
+                        class="navbar-nav align-items-center justify-content-end justify-content-xxl-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase  active mx-2 px-3 mb-2 mb-lg-0"
+                                aria-current="page" href="index.html">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0"
+                               href="#">Роботи</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0"
+                                href="#">Прайс-лист</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0" href="#">Послуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0" href="#">Блог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0"
+                                href="#">Галерея</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase  mx-2 px-3 mb-2 mb-lg-0" href="#">Контакти</a>
+                        </li>
+
+                    </ul>
+
+                    <div class="  d-flex mt-5 mt-lg-0 ps-lg-5 align-items-center justify-content-end ">
+                        <ul class="navbar-nav social-div justify-content-end align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center px-3" href="#">
+                                    <iconify-icon icon="ri:facebook-fill" class="social-icon text-white"></iconify-icon>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center px-3" href="#">
+                                    <iconify-icon icon="ri:instagram-line"
+                                        class="social-icon text-white"></iconify-icon>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center px-3" href="#">
+                                    <iconify-icon icon="ri:twitter-fill" class="social-icon text-white"></iconify-icon>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center px-3" href="#">
+                                    <iconify-icon icon="ri:linkedin-fill" class="social-icon text-white"></iconify-icon>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link d-flex align-items-center px-3" href="#">
+                                    <iconify-icon icon="ri:youtube-fill" class="social-icon text-white"></iconify-icon>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" style="background-image:url(images/banner2-img.jpg);">
+        <div class="container padding-large">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <p class="header-top text-white mb-4">найнадійніше сервісне обслуговування в черкасах</p>
+                    <h2 class="display-1 text-white mb-5">СТО-ЧЕ Автогруп</h2>
+                    <button type="button" class="btn btn-outline-primary align-items-center ">
+                        Дізнатися більше
+                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div style="overflow: hidden;">
+            <div class="container-fluid border-bottom" data-aos="zoom-out">
+                <div class="container">
+                    <div class="row align-items-center ">
+                        <div class="col-md-6 padding-medium pe-5 border-end">
+                            <p class="header-top mb-3">Обирайте нас</p>
+                            <h2 class="display-4 ">Ми подбаємо про ваш автомобіль професійно і якісно</h2>
+                        </div>
+                        <div class="col-md-6 padding-minimum-2 ps-md-5">
+                            <p class="ms-md-5 ">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                            <a href="#" class="btn btn-primary ms-5 mt-3 ">Про компанію <iconify-icon
+                                    icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="process" class="my-5">
+        <div style="overflow: hidden;">
+            <div class="container" data-aos="zoom-out">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="py-3 py-md-5 px-3">
+                            <h4 class="mb-3"> <span class="heading-color">01.</span> Оберіть час</h4>
+                            <p>Eget magna fermentum iaculis diam phasellus vestibulum lorem eget mauris pharetra et.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="py-3 py-md-5 px-3">
+                            <h4 class="mb-3"> <span class="heading-color">02.</span> Діагностика</h4>
+                            <p>Velit sed ante in nisl amet sapien. Mauris a ullamcorper ut iaculis. Et massa non eu ac
+                                tristique.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="py-3 py-md-5 px-3">
+                            <h4 class="mb-3"> <span class="heading-color">03.</span> Обслуговування</h4>
+                            <p>In tincidunt in tortor ligula risus nulla blandit eget mauris ete pharetraeget etem.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="py-3 py-md-5 px-3">
+                            <h4 class="mb-3"> <span class="heading-color">04.</span> Підмінне авто</h4>
+                            <p>Mauris a ullamcorper ut iaculis. Et massa non eu ac tristique ligula risus egestas
+                                consectetur.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="project" class="py-5" style="background-image:url(images/project-img.jpg);">
+        <div style="overflow: hidden;">
+            <div data-aos="zoom-out">
+                <div class="container position-relative d-sm-flex py-5 mt-5 mb-2">
+                    <div>
+                        <p class="header-top mb-3">Приклади</p>
+                        <h2 class=" text-white display-4 ">Фотозвіти виконаних робіт</h2>
+                    </div>
+
+                    <div class="swiper-arrow position-absolute end-0 mt-sm-5 ms-3">
+                        <iconify-icon icon="teenyicons:arrow-left-solid" class="icon-arrow-left me-3"></iconify-icon>
+                        <iconify-icon icon="teenyicons:arrow-right-solid" class="icon-arrow-right"></iconify-icon>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="swiper project-swiper mb-4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project1.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project2.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project3.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project4.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project1.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project2.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project3.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a href="#" class="image-link">
+                                        <img class="portfolio-img img-fluid" src="images/project4.jpg" alt="">
+                                        <div
+                                            class="description position-absolute top-50 start-50 translate-middle text-center p-3">
+                                            <p class="text-white">текст</p>
+                                            <h3 class="text-white">робота</h3>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text-center pb-5 mb-5">
+                    <a href="#" class="btn btn-primary mt-5 ">Переглянути всі <iconify-icon
+                            icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="price" class="my-5">
+        <div style="overflow: hidden;">
+            <div class="container py-5" data-aos="zoom-out">
+
+                <p class="header-top">Прайс-лист</p>
+                <h2 class="display-4 mb-5">Популярні послуги</h2>
+
+                <ul class="nav nav-tabs my-3" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link me-4 px-4 py-1 mb-2 active" id="basic-tab" data-bs-toggle="tab"
+                            data-bs-target="#basic-tab-pane" type="button" role="tab" aria-controls="basic-tab-pane"
+                            aria-selected="true">Базове ТО</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link me-4 px-4 py-1 mb-2" id="minimum-tab" data-bs-toggle="tab"
+                            data-bs-target="#minimum-tab-pane" type="button" role="tab" aria-controls="minimum-tab-pane"
+                            aria-selected="false">Мінімальне</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link me-4 px-4 py-1 mb-2" id="maximum-tab" data-bs-toggle="tab"
+                            data-bs-target="#maximum-tab-pane" type="button" role="tab" aria-controls="maximum-tab-pane"
+                            aria-selected="false">Максимальне</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link me-4 px-4 py-1 mb-2" id="delux-tab" data-bs-toggle="tab"
+                            data-bs-target="#delux-tab-pane" type="button" role="tab" aria-controls="delux-tab-pane"
+                            aria-selected="false">Делюкс</button>
+                    </li>
+
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="basic-tab-pane" role="tabpanel"
+                        aria-labelledby="basic-tab" tabindex="0">
+                        <div class="row py-4">
+                            <div class="col-lg-3 pb-4">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило</p>
+                                    <h2 class="display-5 mb-5">UAH 1695</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 pb-4">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило + Фільтри</p>
+                                    <h2 class="display-5 mb-5">UAH 2950</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 pb-4">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Гальмівна система</p>
+                                    <h2 class="display-5 mb-5">UAH 4440</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 pb-4">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Детейлінг</p>
+                                    <h2 class="display-5 mb-5">UAH 7050</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="minimum-tab-pane" role="tabpanel" aria-labelledby="minimum-tab"
+                        tabindex="0">
+                        <div class="row py-4">
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="0">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило</p>
+                                    <h2 class="display-5 mb-5">UAH 1895</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="300">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило + Фільтри</p>
+                                    <h2 class="display-5 mb-5">UAH 3050</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="600">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Гальмівна система</p>
+                                    <h2 class="display-5 mb-5">UAH 4940</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="900">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Детейлінг</p>
+                                    <h2 class="display-5 mb-5">UAH 8050</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="van-tab-pane" role="tabpanel" aria-labelledby="van-tab" tabindex="0">
+                        <div class="row py-4">
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="0">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило</p>
+                                    <h2 class="display-5 mb-5">UAH 2095</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="300">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило + Фільтри</p>
+                                    <h2 class="display-5 mb-5">UAH 3350</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="600">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Гальмівна система</p>
+                                    <h2 class="display-5 mb-5">UAH 5440</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="900">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Детейлінг</p>
+                                    <h2 class="display-5 mb-5">UAH 9050</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="maximum-tab-pane" role="tabpanel" aria-labelledby="maximum-tab"
+                        tabindex="0">
+                        <div class="row py-4">
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="0">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило</p>
+                                    <h2 class="display-5 mb-5">UAH 3095</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="300">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило + Фільтри</p>
+                                    <h2 class="display-5 mb-5">UAH 4050</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="600">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Гальмівна система</p>
+                                    <h2 class="display-5 mb-5">UAH 6840</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="900">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Детейлінг</p>
+                                    <h2 class="display-5 mb-5">UAH 10150</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="delux-tab-pane" role="tabpanel" aria-labelledby="delux-tab"
+                        tabindex="0">
+                        <div class="row py-4">
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="0">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило</p>
+                                    <h2 class="display-5 mb-5">UAH 5095</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="300">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Мастило + Фільтри</p>
+                                    <h2 class="display-5 mb-5">UAH 7850</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="600">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Гальмівна система</p>
+                                    <h2 class="display-5 mb-5">UAH 9740</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Ipsum dolor</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-6 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+                                data-aos-delay="900">
+                                <div class="py-5 plan-post text-center">
+
+                                    <p class="header-top">Детейлінг</p>
+                                    <h2 class="display-5 mb-5">UAH 15050</h2>
+                                    <div class="price-option">
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
+                                        <p><span class="price-tick">✓</span> Vivamus velit mir</p>
+                                        <p><span class="price-tick">✓</span> It ir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Elit mir ivamus</p>
+                                        <p><span class="price-tick">✓</span> Quisque rhoncus</p>
+                                        <p><span class="price-tick">✓</span> lit mir iamus</p>
+                                    </div>
+
+                                    <a href="#" class="btn btn-primary mt-3 px-4 py-3 mx-2 ">Більше
+                                        <iconify-icon icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="my-5">
+        <div style="overflow: hidden;">
+            <div class="container  py-5" data-aos="zoom-out">
+
+                <p class="text-center header-top">Наш Блог</p>
+                <h2 class="text-center display-4 mb-5 ">Останні роботи</h2>
+                <div class="row blog-content border-bottom">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="py-3 mt-3 d-flex">
+                            <div class="mt-1">
+                                <h4 class="heading-color">09</h4>
+                                <p>Кві</p>
+                            </div>
+                            <div class="ms-5 mt-1">
+                                <a href="#" class="text-decoration-none">
+                                    <p class="blog-topic text-uppercase mb-1">Якась - категорія</p>
+                                </a>
+                                <a href="#" class="text-decoration-none">
+                                    <h4 class="blog-title">ремонт коробаса 1.6 на форд ескорт</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row blog-content border-bottom">
+                    <div class="col-md-6 offset-md-3">
+                        <div class=" py-3 mt-3 d-flex ">
+                            <div class="">
+                                <h4 class="heading-color">11</h4>
+                                <p>Бер</p>
+                            </div>
+                            <div class="ms-5 ">
+                                <a href="#" class="text-decoration-none">
+                                    <p class="blog-topic text-uppercase mb-1">Якась - категорія</p>
+                                </a>
+                                <a href="#" class="text-decoration-none">
+                                    <h4 class="blog-title">правильне обслуговування дригуна на старих ауді</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row blog-content border-bottom">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="py-3 mt-3 d-flex">
+                            <div class="mt-1">
+                                <h4 class="heading-color">15</h4>
+                                <p>Лют</p>
+                            </div>
+                            <div class="ms-5 mt-1">
+                                <a href="#" class="text-decoration-none">
+                                    <p class="blog-topic text-uppercase mb-1">Якась - категорія</p>
+                                </a>
+                                <a href="#" class="text-decoration-none">
+                                    <h4 class="blog-title">10 способів зекономити та приїхати на капіталочку</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="#" class="btn btn-primary mt-5">Читати всі пости<iconify-icon
+                            icon="tabler:arrow-right" class="arrow-icon"></iconify-icon>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="info">
+        <div style="overflow: hidden;">
+            <div class="container" data-aos="zoom-out">
+                <div class="row align-items-center ">
+                    <div class="col-md-4 text-center padding-medium border-end">
+                        <p class="header-top mb-4">телефони (whatsapp, viber):</p>
+                        <p class="mb-2">+380 222 333 44</p>
+                        <p class="mb-2">+380 666 777 88</p>
+                    </div>
+                    <div class="col-md-4 text-center padding-medium border-end">
+                        <p class="header-top mb-4">Робочі години</p>
+                        <p class="mb-2">Пн - Пт: 8 - 20</p>
+                        <p class="mb-2">Сб - Нд: 9 - 19</p>
+                    </div>
+                    <div class="col-md-4 text-center padding-medium">
+                        <p class="header-top mb-4">Наша Адреса</p>
+                        <p class="mb-2">вул. Байди Вишневецького, 36, Черкаси</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center border-top"></footer>
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 pt-4">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2024 СТО-Че Автогруп (Дробіт Б.В.)</p>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+
+    <!-- script ================================================== -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+
+</body>
+
+</html>
